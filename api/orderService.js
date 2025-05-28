@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let baseUrl="http://localhost:8080/api/order";
+let baseUrl="https://shop-ax1q.onrender.com/api/order";
 
 export const addOrder=(order)=>{
     return axios.post(baseUrl,order);

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-let baseUrl="http://localhost:8080/api/user/";
+let baseUrl="https://shop-ax1q.onrender.com/api/user/";
 
 export const addUser=(user)=>{
    

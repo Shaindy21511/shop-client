@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-let baseUrl="http://localhost:8080/api/product";
+let baseUrl="https://shop-ax1q.onrender.com/api/product";
 
 export const getAllProducts=(page)=>{
     return axios.get(baseUrl+"?limit=10&page="+page);
